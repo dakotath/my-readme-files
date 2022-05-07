@@ -13,12 +13,13 @@ Windows:
 5. Open a browser and go to http://localhost/phpmyadmin
 6. Create a new database and call it whatever you want.
 7. Once created, Go to the import tab and select the examplesite.sql file and import it.
-8. Now go to ``` site_config/ ``` and change the info in ``` database*.txt ``` to match the details.
+8. Now go to ``` site_config/ ``` and change the info in ``` database(all/pwd/name).txt ``` to match the details.
 <br>
-Normally, All you need to do is change ``` databasename.txt ```
+Normally, All you need to do is change databasename.txt
 <br>
 Once all done, Go to http://localhost/signup/ and create your account.
 <br>
-Now once you have made your account, Go to ``` site_config/admin_email.txt ``` and set it to the email you used to sign up.
+Now once you have made your account, Go to site_config/admin_email.txt  and set it to the email you used to sign up.
 <br>
-That should give you access to the admin panel. If you want to change the header buttons, Go to ``` site_config/headerbuttons.txt and change the html ```
+That should give you access to the admin panel. If you want to change the header buttons, 
+<br> Go to site_config/headerbuttons.txt and change the html
